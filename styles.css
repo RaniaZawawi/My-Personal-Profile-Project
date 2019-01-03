@@ -330,9 +330,22 @@ a.social:hover {
   color: white;
 }
 
+.main img {
+  width: 90px;
+  height: 90px;
+  margin: 5px 10px;
+}
+.main.flex {
+  justify-content: flex-start;
+}
 @media screen and (min-width: 720px) {
   .timeline {
     width: 60%;
-
   }
+}
+@media screen and (max-width: 719px) {
+  .main img {
+    display: none;
+  }
+
 }
